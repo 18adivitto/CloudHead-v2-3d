@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlaneMovement : MonoBehaviour
 {
     public float speed;
+    public float planeTwoSpeed;
 
 
     private Renderer[] _renderers;
@@ -29,7 +30,7 @@ public class PlaneMovement : MonoBehaviour
     public void Move()
     {
         
-        transform.position += new Vector3(speed*Time.deltaTime, 0 , 0 );
+        transform.position += new Vector3  (speed*Time.deltaTime,0,0 );
         ScreenWrap();
     }
 
