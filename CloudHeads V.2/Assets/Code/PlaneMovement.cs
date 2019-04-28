@@ -9,8 +9,8 @@ public class PlaneMovement : MonoBehaviour
 
 
     private Renderer[] _renderers;
-    private bool _isWrappingX = false;
-    private bool _isWrappingY = false;
+    private bool _isWrappingX = true;
+    private bool _isWrappingY = true;
     
     
     
